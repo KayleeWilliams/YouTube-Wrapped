@@ -1,6 +1,6 @@
 # Youtube-Wrapped
 <p align="middle">
-    <img src="assets/output.png" height="300">
+    <img src="assets/Output.png" height="300">
 </p>
 
 ## About
