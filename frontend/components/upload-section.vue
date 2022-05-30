@@ -19,11 +19,11 @@
             <div class="flex flex-row gap-6">
                 <input type="file" accept=".zip" id="files" @change="handleFile($event)" hidden />
                 <label for="files"
-                    class="bg-violet-700 hover:bg-violet-500 text-lg px-6 py-4 rounded-lg drop-shadow-lg"> Select File
+                    class="bg-violet-700 hover:bg-violet-500 text-lg px-6 py-4 rounded-lg drop-shadow-lg transistion duration-500 ease-in-out"> Select File
                 </label>
                 
                 <button v-on:click="submitFile"
-                    class="bg-violet-700 hover:bg-violet-500 text-lg px-6 py-4 rounded-lg drop-shadow-lg flex flex-row items-center"> 
+                    class="bg-violet-700 hover:bg-violet-500 text-lg px-6 py-4 rounded-lg drop-shadow-lg flex flex-row items-center ttransistion duration-500 ease-in-out"> 
                     <div>
                         <div v-show="isLoading == true" class="rounded-full border-violet-100 border-t-violet-100/0 w-6 h-6 border-4  border-solid animate-spin mr-2"></div>
                     </div>
@@ -33,7 +33,7 @@
             </div>
             <p class="text-base text-center"> Your data will be deleted straight away. <br>
                 The code for this project is publically assessable on
-                <a class="text-pink-600 underline" href="https://github.com/KayleeWilliams"> GitHub</a>.
+                <a class="text-pink-600 underline hover:text-pink-400 transistion duration-300 ease-in-out" href="https://github.com/KayleeWilliams"> GitHub</a>.
             </p>
 
         </div>
