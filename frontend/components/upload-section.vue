@@ -33,7 +33,7 @@
             </div>
             <p class="text-base text-center"> Your data will be deleted straight away. <br>
                 The code for this project is publically assessable on
-                <a class="text-pink-600 underline hover:text-pink-400 transistion duration-300 ease-in-out" href="https://github.com/KayleeWilliams"> GitHub</a>.
+                <a class="text-pink-600 underline hover:text-pink-400 transistion duration-300 ease-in-out" href="https://github.com/KayleeWilliams" target=”_blank”> GitHub</a>.
             </p>
 
         </div>

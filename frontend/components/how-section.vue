@@ -3,7 +3,7 @@
         <p class="text-2xl font-semibold"> How to download your data </p>
         
         <ol class="list-decimal">
-            <li>Head over to <a class="text-pink-600 underline hover:text-pink-400 transistion duration-300 ease-in-out" href="https://takeout.google.com"> Google Takeout</a>
+            <li>Head over to <a class="text-pink-600 underline hover:text-pink-400 transistion duration-300 ease-in-out" href="https://takeout.google.com" target=”_blank”> Google Takeout</a>
                 and sign in</li>
             <li>Select “YouTube and YouTube Music”</li>
             <li>Hit next step and configure your preferences</li>
