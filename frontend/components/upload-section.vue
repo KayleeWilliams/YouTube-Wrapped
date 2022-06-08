@@ -19,13 +19,13 @@
             <div class="flex flex-row gap-6">
                 <input type="file" accept=".zip" id="files" @change="handleFile($event)" hidden />
                 <label for="files"
-                    class="bg-violet-700 hover:bg-violet-500 text-lg px-6 py-4 rounded-lg drop-shadow-lg transistion duration-500 ease-in-out"> Select File
+                    class="bg-violet-700 hover:bg-violet-500 select-none text-lg px-6 py-4 rounded-lg drop-shadow-lg transition ease-in-out delay-150 duration-150 hover:-translate-y-1 hover:scale-105"> Select File
                 </label>
                 
                 <button v-on:click="submitFile"
-                    class="bg-violet-700 hover:bg-violet-500 text-lg px-6 py-4 rounded-lg drop-shadow-lg flex flex-row items-center ttransistion duration-500 ease-in-out"> 
+                    class="flex flex-row bg-violet-700 hover:bg-violet-500 select-none text-lg px-6 py-4 rounded-lg drop-shadow-lg transition ease-in-out delay-150 duration-150 hover:-translate-y-1 hover:scale-105"> 
                     <div>
-                        <div v-show="isLoading == true" class="rounded-full border-violet-100 border-t-violet-100/0 w-6 h-6 border-4  border-solid animate-spin mr-2"></div>
+                        <div v-show="isLoading == true" class="rounded-full border-violet-100 border-t-violet-100/0 w-6 h-6 border-4 border-solid animate-spin mr-2"></div>
                     </div>
                     Submit
                 </button>
